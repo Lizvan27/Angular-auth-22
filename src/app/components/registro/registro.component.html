@@ -1,0 +1,18 @@
+<div>
+    <div>
+        <h1>Registro</h1>
+        <form [formGroup]="formRegistro" (ngSumit)="onSubmit()">
+            <div>
+                <label for="email">Email</label>
+                <input type="text" name="email" placeholder="Ingrese correo" formControlName="email">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" placeholder="Ingrese contraseña" formControlName="password"> 
+            </div>
+            <div>
+                <button (click)="onSubmit()">Registrar</button>
+            </div>
+        </form>
+    </div>
+</div>

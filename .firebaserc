@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-945e6": {
+      "hosting": {
+        "auth": [
+          "angular-945e6"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-945e6"
+  }
+}
